@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bé Học Toán"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btndn"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botronbtn"
+        android:layout_gravity="center"
+        android:text="Phép cộng phạm vi 5"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/btndn1"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botronbtn"
+        android:layout_gravity="center"
+        android:text="Phép cộng phạm vi 10"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/btndn2"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botronbtn"
+        android:layout_gravity="center"
+        android:text="Phép trừ phạm vi 5"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/btndn3"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botronbtn"
+        android:layout_gravity="center"
+        android:text="Phép trừ phạm vi 10"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/btndn4"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botronbtn"
+        android:layout_gravity="center"
+        android:text="Bài tập so sánh"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</LinearLayout>
